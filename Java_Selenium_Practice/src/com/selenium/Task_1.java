@@ -45,6 +45,10 @@ public class Task_1 {
 
         // ✅ Switch to one of the remaining windows
         Set<String> wid = driver.getWindowHandles();
+        
+        //check size of all finding wid
+        System.out.println("Size/Length of Window Id : "+wid.size());
+        
         for (String id : wid) {
             try {
                 driver.switchTo().window(id); // Try to switch
