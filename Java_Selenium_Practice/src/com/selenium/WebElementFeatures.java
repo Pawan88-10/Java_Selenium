@@ -67,7 +67,7 @@ public class WebElementFeatures {
                 System.out.println("Found banner div by CSS selector: " + bannerDiv.getTagName());
             } catch (Exception e) {
                 System.err.println("Banner div not found: " + e.getMessage());
-            }
+            } 
 
             // 5. findElement on WebElement (Nested element search)
             try {
